@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import heroData from '../../mock/data'
+import {heroData} from '../../mock/data'
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
