@@ -31,8 +31,7 @@ const Header = () => {
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
             <span>
-              {/* {subtitle || "I'm the Unknown Developer."} */}
-              {subtitle}
+              {subtitle || "I'm the Unknown Developer."}
             </span>
           </h1>
         </Fade>

@@ -58,7 +58,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Email',
-  btn: '',
+  btn: 'Email',
   email: 'qdangdo@gmail.com',
 };
 
