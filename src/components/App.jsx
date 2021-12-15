@@ -24,6 +24,8 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
+  console.log(hero)
+
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
