@@ -1,6 +1,5 @@
-# [Portfolio](https://qd11.github.io/Portfolio/)
+# [Portfolio](https://quangdo.vercel.app/)
 
 Created with [gatsby-simplefolio](https://github.com/cobiwave/gatsby-simplefolio).
 
-Make any changes on the main branch and do "npm run deploy".
-Deploy on the master branch.
+Make any changes on the main branch.
