@@ -1,7 +1,8 @@
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/no-danger */
 /* eslint-disable react/forbid-prop-types */
-/* eslint-disable jsx-a11y/html-has-lang */
+/* eslint-disable jsx-a11y/html-has-lan */
+// 
 import React from 'react';
 import PropTypes from 'prop-types';
 
