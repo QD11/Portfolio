@@ -17,10 +17,10 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'pro3.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'pro3.png',
+  paragraphOne: 'Hello! My name is Quang and I am a software developer with a Bachelor of Science in Aerospace Engineering from the University of Notre Dame ☘️.',
+  paragraphTwo: 'My coding languages of choice are Javascript, Ruby, and Python. I also have experiences with C++ and Fortran. I love learning new technologies. Currently, I am learning Next.js and Express.js, in place of React and Ruby on Rails, to create full stack web applications. After that, I plan to learn Java as my next language. ',
+  paragraphThree: 'Other than coding, I enjoy working out and playing board games!',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,28 +28,31 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'pjman_pic.jpg',
+    img: 'pjman_pic.png',
     title: 'PJ Man',
     info: '',
     info2: '',
+    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
     url: 'https://pj-man.herokuapp.com/',
     repo: 'https://github.com/QD11/PJ-Man', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'chatapp_pic.jpg',
+    img: 'chatapp_pic.png',
     title: 'Chat App',
     info: '',
     info2: '',
+    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
     url: 'https://chat-app-fi.herokuapp.com/',
     repo: 'https://github.com/QD11/chat-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'flote_pic.jpg',
+    img: 'flote_pic.png',
     title: 'Flote',
     info: '',
     info2: '',
+    tech: ['Javascript'],
     url: 'https://qd11.github.io/Flote/',
     repo: 'https://github.com/QD11/Flote', // if no repo, the button will not show up
   },

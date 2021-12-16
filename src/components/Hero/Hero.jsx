@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import {heroData} from '../../mock/data'
+import styled from 'styled-components'
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -30,9 +31,9 @@ const Header = () => {
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
-            <span>
+            <Subtitle>
               {subtitle || "I'm the Unknown Developer."}
-            </span>
+            </Subtitle>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
@@ -48,5 +49,10 @@ const Header = () => {
     </section>
   );
 };
+
+const Subtitle = styled.span`
+  font-size: 3.5rem;
+  font-weight: 700;
+`
 
 export default Header;

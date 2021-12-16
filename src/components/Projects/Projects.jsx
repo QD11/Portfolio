@@ -5,13 +5,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import styled from 'styled-components'
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
-
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -28,8 +27,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-
+            const { title, info, info2, tech, url, repo, img, id } = project;
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -49,6 +47,14 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+
+                      <TechDiv>
+                        {tech.map(item => 
+                          <span className="tech">
+                            {item}
+                          </span>)}
+                      </TechDiv>
+
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
@@ -115,5 +121,20 @@ const Projects = () => {
     </section>
   );
 };
+
+const TechDiv = styled.div`
+display: flex;
+flex-wrap: wrap;
+.tech {
+  font-family: monospace;
+  font-size: 1.75rem;
+  padding: 2px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(29, 29, 29);
+  background-color: rgb(245, 245, 245);
+  border-radius: 3px;
+}
+`
 
 export default Projects;
