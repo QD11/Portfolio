@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'chatapp_pic.png',
     title: 'Chat App',
-    info: 'A chat application where users can realtime message other registered members. Users can chat with multiple members in one message group.',
+    info: 'A chat application where users can realtime message other registered members. Users can chat with multiple members in a message group.',
     info2: '',
     tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
     url: 'https://chat-app-fi.herokuapp.com/',
