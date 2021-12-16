@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'pro3.png',
   paragraphOne: 'Hello! My name is Quang and I am a software developer with a Bachelor of Science in Aerospace Engineering from the University of Notre Dame ☘️.',
-  paragraphTwo: 'My coding languages of choice are Javascript, Ruby, and Python. I also have experiences with C++ and Fortran. I love learning new technologies. Currently, I am learning Next.js and Express.js, in place of React and Ruby on Rails, to create full stack web applications. After that, I plan to learn Java as my next language. ',
+  paragraphTwo: 'My coding languages of choice are Javascript and Python. I also have experiences with Pthon, C++, and Fortran. I love learning new technologies. Currently, I am learning Next.js and Express.js, in place of React and Ruby on Rails, to create full stack web applications. After that, I plan to learn Java as my next language. ',
   paragraphThree: 'Other than coding, I enjoy working out and playing board games!',
   resume: '/resume.pdf', // if no resume, the button will not show up
 };
