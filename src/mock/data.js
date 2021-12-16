@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hello! My name is Quang and I am a software developer with a Bachelor of Science in Aerospace Engineering from the University of Notre Dame ☘️.',
   paragraphTwo: 'My coding languages of choice are Javascript, Ruby, and Python. I also have experiences with C++ and Fortran. I love learning new technologies. Currently, I am learning Next.js and Express.js, in place of React and Ruby on Rails, to create full stack web applications. After that, I plan to learn Java as my next language. ',
   paragraphThree: 'Other than coding, I enjoy working out and playing board games!',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '/resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pjman_pic.png',
     title: 'PJ Man',
-    info: '',
+    info: 'A project management application to provide smooth workflow to individual users and teams. Users can create projects/tasks and assign them to members of their team. Users can also realtime message with other members of the same team.',
     info2: '',
     tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
     url: 'https://pj-man.herokuapp.com/',
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'chatapp_pic.png',
     title: 'Chat App',
-    info: '',
+    info: 'A chat application where users can realtime message other registered members. Users can chat with multiple members in one message group.',
     info2: '',
     tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
     url: 'https://chat-app-fi.herokuapp.com/',
@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'flote_pic.png',
     title: 'Flote',
-    info: '',
+    info: 'An application where users can search up and save flight tickets when provided with two locations. The tickets contain information regarding airlines, prices, cities, and whether they are round trips or not. ',
     info2: '',
     tech: ['Javascript'],
     url: 'https://qd11.github.io/Flote/',
