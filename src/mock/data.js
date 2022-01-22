@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Guess That Task! (IN PROGRESS)',
     info: 'A social deduction game where teams are split between imposters and crewmates. Crewmates are assigned tasks that they must perform without the imposters figuring them out. Imposters have limited time and guesses to figure out the crewmates\' tasks.',
     info2: '',
-    tech: ['React', 'Next.js', 'MongodDB', 'Socket.IO', 'Express.js', 'Node.js'],
+    tech: ['React', 'Next.js', 'MongodDB', 'Socket.IO', 'Express.js', 'Node.js', 'Redux'],
     url: 'https://guess-that-task.vercel.app/',
     repo: 'https://github.com/QD11/guess-that-task', // if no repo, the button will not show up
   },
@@ -42,7 +42,7 @@ export const projectsData = [
     title: 'PJ Man',
     info: 'A project management application to provide smooth workflow to individual users and teams. Users can create projects/tasks and assign them to members of their team. Users can also realtime message with other members of the same team.',
     info2: '',
-    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
+    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket', 'Redux'],
     url: 'https://pj-man.herokuapp.com/',
     repo: 'https://github.com/QD11/PJ-Man', // if no repo, the button will not show up
   },
@@ -52,7 +52,7 @@ export const projectsData = [
     title: 'Chat App',
     info: 'A chat application where users can realtime message other registered members. Users can chat with multiple members in a message group.',
     info2: '',
-    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket'],
+    tech: ['React', 'Ruby on Rails', 'PostgreSQL', 'WebSocket', 'Redux'],
     url: 'https://chat-app-fi.herokuapp.com/',
     repo: 'https://github.com/QD11/chat-app', // if no repo, the button will not show up
   },
