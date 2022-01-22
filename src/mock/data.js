@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Guess That Task! (IN PROGRESS)',
     info: 'A social deduction game where teams are split between imposters and crewmates. Crewmates are assigned tasks that they must perform without the imposters figuring them out. Imposters have limited time and guesses to figure out the crewmates\' tasks.',
     info2: '',
-    tech: ['React', 'Next.js', 'MongodDB', 'Socket.io', 'Express.js', 'Node.js'],
+    tech: ['React', 'Next.js', 'MongodDB', 'Socket.IO', 'Express.js', 'Node.js'],
     url: 'https://guess-that-task.vercel.app/',
     repo: 'https://github.com/QD11/guess-that-task', // if no repo, the button will not show up
   },
