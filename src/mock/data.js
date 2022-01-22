@@ -28,6 +28,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'guess_that_task.png',
+    title: 'Guess That Task! (IN PROGRESS)',
+    info: 'A social deduction game where teams are split between imposters and crewmates. Crewmates are assigned tasks that they must perform without the imposters figuring them out. Imposters have limited time and guesses to figure out the crewmates\' tasks.',
+    info2: '',
+    tech: ['React', 'Next.js', 'MongodDB', 'Socket.io', 'Express.js', 'Node.js'],
+    url: 'https://guess-that-task.vercel.app/',
+    repo: 'https://github.com/QD11/guess-that-task', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'pjman_pic.png',
     title: 'PJ Man',
     info: 'A project management application to provide smooth workflow to individual users and teams. Users can create projects/tasks and assign them to members of their team. Users can also realtime message with other members of the same team.',
